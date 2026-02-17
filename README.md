@@ -43,7 +43,9 @@ I tuned the following hyperparameters for my implementation:
 
 ## Training
 
-I trained the model using cross-entropy loss with the AdamW optimizer. It learns to predict the next character in a sequence given the previous characters, similar to how large language models work.
+I trained the model using cross-entropy loss with the AdamW optimizer. It learns to predict the next character in a sequence given the previous characters, similar to how large language models work. It is not perfect and while its predictions do somewhat represent the input data (shakespeares works), there is significant nonsense included.
+
+IMPORTANT: Do NOT try to train this unless you have a powerful GPU, as it will take ages! You can train it on a CPU but must simplify the network first.
 
 ## Usage
 
